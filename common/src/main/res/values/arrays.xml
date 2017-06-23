@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--积分商城收货地址区域、街道-->
+    <string-array name="city">
+        <item>南京</item>
+        <item>上海</item>
+        <item>北京</item>
+        <item>昆明</item>
+    </string-array>
+
+    <string-array name="road">
+        <item>将军大道</item>
+        <item>软件大道</item>
+        <item>龙眠大道</item>
+        <item>天印大道</item>
+    </string-array>
+</resources>

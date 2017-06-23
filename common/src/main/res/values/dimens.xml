@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="gudieview_width">6dp</dimen>
+    <dimen name="gudieview_heigh">6dp</dimen>
+
+    <!-- font -->
+    <dimen name="font_tiny">10sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_normal2">16sp</dimen>
+    <dimen name="font_normal3">20sp</dimen>
+    <dimen name="font_large">24sp</dimen>
+
+    <!--验证码dialog-->
+    <dimen name="common_dialog_margin">15dp</dimen>
+    <dimen name="common_dialog_btn_marginTop">20dp</dimen>
+    <dimen name="common_dialog_marginLeft">15dp</dimen>
+    <dimen name="common_dialog_linLayout_margintop">14dp</dimen>
+    <dimen name="common_dialog_linLayout_marginBottom">12dp</dimen>
+    <dimen name="common_dialog_linLayout_height">58dp</dimen>
+    <dimen name="common_dialog_iv_height">22dp</dimen>
+    <dimen name="common_dialog_iv_marginTop">21dp</dimen>
+    <item name="common_dialog_right" format="float" type="dimen">2.0</item>
+    <item name="common_dialog_left" format="float" type="dimen">1.0</item>
+
+    <dimen name="common_top_view_height_new">0.5dp</dimen>
+
+    <dimen name="common_btn_height_new">52dp</dimen>
+    <!--确认按钮字体大小-->
+    <dimen name="common_btn_text_size">17.3sp</dimen>
+
+    <!--输入框字体大小-->
+    <dimen name="common_edit_text_size_new">14sp</dimen>
+
+</resources>

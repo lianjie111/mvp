@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="14dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dlg_addr_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="请确认您的真实收货地址，一遍您的物品能够及时准确的到达您的手中"
+        android:textSize="13sp"
+        android:textColor="#444444"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/alpha_10_black" />
+    <!--姓名电话-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dlg_addr_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColorHint="#bebebe"
+            android:textColor="#444444"
+            android:textSize="12sp"
+            android:background="@null"
+            android:hint="收件人姓名" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/alpha_10_black" />
+
+        <EditText
+            android:id="@+id/dlg_addr_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:numeric="integer"
+            android:phoneNumber="true"
+            android:background="@null"
+            android:textColorHint="#bebebe"
+            android:textColor="#444444"
+            android:textSize="12sp"
+            android:hint="联系电话" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/alpha_10_black" />
+    <!--区域-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textColor="#444444"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:hint="请选择所在区域" />
+
+        <Spinner
+            android:id="@+id/dlg_addr_spin_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:requiresFadingEdge="none"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/alpha_10_black" />
+    <!--街道-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textColor="#444444"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:hint="请选择街道" />
+
+        <Spinner
+            android:id="@+id/dlg_addr_spin_road"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:requiresFadingEdge="none"
+
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/alpha_10_black" />
+    <!--详细地址-->
+    <EditText
+        android:id="@+id/dlg_addr_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textColorHint="#bebebe"
+        android:textColor="#444444"
+        android:textSize="12sp"
+        android:gravity="center_vertical"
+        android:hint="请填写详细地址"
+        android:minHeight="60dp"
+       />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/alpha_10_black" />
+    <!--附加信息-->
+    <EditText
+        android:id="@+id/dlg_addr_append"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="附加信息"
+        android:textColorHint="#bebebe"
+        android:textColor="#858585"
+        android:textSize="12sp"
+        android:minHeight="70dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/alpha_10_black" />
+
+    <Button
+        android:id="@+id/dlg_addr_sure"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_bg_new"
+        android:text="确定"
+        android:textSize="17sp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

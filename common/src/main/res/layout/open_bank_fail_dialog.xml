@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/dialog_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="17dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/close_iv"
+            android:src="@mipmap/icon_pop_up_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/icon_fail_account_opening"
+        android:layout_centerHorizontal="true"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+    <TextView
+        android:id="@+id/fail_tv"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:layout_marginTop="90dp"
+        android:text="哎呀,开户失败了"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/becase_tv"
+        android:layout_below="@+id/fail_tv"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:text="银行卡与银行预留手机号不匹配,请仔细填写。"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/phone_tv"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/becase_tv"
+        android:textColor="#444444"
+        android:text="如有疑问,请拨打客服热线电话:400 0058 990"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/phone_tv"
+        android:id="@+id/code_dialog_btn"
+        style="@style/dialogBtn"
+        android:text="确认"/>
+
+</RelativeLayout>

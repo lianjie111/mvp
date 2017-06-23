@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        style="@style/dialoglLinLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/dialogLayout"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/code_dialog_til"
+                android:layout_weight="1"
+                style="@style/dialogTil">
+
+                <EditText
+                    android:paddingBottom="-10dp"
+                    android:inputType="number"
+                    android:id="@+id/code_dialog_et"
+                    style="@style/dialogEt"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/code_dialog_iv"
+                style="@style/dialogIV"/>
+        </LinearLayout>
+
+        <View
+            style="@style/common_dialog_view"/>
+
+        <Button
+            android:id="@+id/code_dialog_btn"
+            style="@style/dialogBtn"
+            android:text="确认"/>
+    </LinearLayout>
+
+</RelativeLayout>

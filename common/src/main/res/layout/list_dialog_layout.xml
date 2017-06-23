@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/dialog_background_banck"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/banck_cade_edll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/banck_cade_edit_tv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/linlatout_background_top"
+                android:gravity="center_vertical"
+                android:padding="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/banck_cade_dell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/banck_cade_delect_tv"
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:layout_height="50dp"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp">
+
+    </LinearLayout>
+    <!--android:background="@drawable/linlatout_background_down"-->
+</LinearLayout>

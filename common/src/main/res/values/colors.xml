@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FA7C20</color>
+    <color name="colorAccents">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FA7C20</color>
+    <!--白天主题-->
+    <color name="day_backgroup_color">#FFFFFFFF</color>
+    <color name="day_one_text_color">#FF000000</color>
+    <color name="day_two_text_color">#c9000000</color>
+    <color name="day_three_text_color">#8A9599</color>
+    <!--夜间主题-->
+    <color name="night_backgroup_color">#3F3F3F</color>
+    <color name="night_one_text_color">#FFbbbbbb</color>
+    <color name="night_two_text_color">#8A9599</color>
+    <color name="night_there_text_color">#8A9599</color>
+    <!-- app主色调-->
+    <!--<color name="main_color">#FA7C20</color>-->
+    <color name="main_color">#0000</color>
+    <color name="orange">#FA8C20</color>
+    <color name="wheel_divider_line_color">#FF000000</color>
+    <color name="wheel_item_text_color_selected">#FF0288ce</color>
+    <color name="wheel_item_text_color_no_select">#FFbbbbbb</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="white_alpha_half">#99FFFFFF</color>
+    <color name="gray">#FFF0F0F0</color>
+    <color name="gray_deep">#c9000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="role_right_gray">#929292</color>
+    <color name="role_yellow_gray">#33CC99</color>
+    <color name="tv_right_gray">#929292</color>
+    <color name="bg_white_gray">#f2f2f2</color>
+    <color name="tv_talk_content">#FFB3B3B3</color>
+    <color name="line_recent_contact">#FFEEEEEE</color>
+    <color name="light_gray">#808080</color>
+    <color name="light_white">#33ffffff</color>
+    <color name="chat_tip_color">#FFcccccc</color>
+    <color name="blue">#5CA3E5</color>
+    <color name="main_blue">#3598db</color>
+    <color name="blue_check">#3493d4</color>
+    <color name="toast_white">#ffffff</color>
+    <color name="toast_stroke_gray">#99d4d4d4</color>
+
+
+    <color name="alpha_05_white">#0DFFFFFF</color>
+    <color name="alpha_10_white">#1AFFFFFF</color>
+    <color name="alpha_15_white">#26FFFFFF</color>
+    <color name="alpha_20_white">#33FFFFFF</color>
+    <color name="alpha_25_white">#40FFFFFF</color>
+    <color name="alpha_30_white">#4DFFFFFF</color>
+    <color name="alpha_35_white">#59FFFFFF</color>
+    <color name="alpha_40_white">#66FFFFFF</color>
+    <color name="alpha_45_white">#73FFFFFF</color>
+    <color name="alpha_50_white">#80FFFFFF</color>
+    <color name="alpha_55_white">#8CFFFFFF</color>
+    <color name="alpha_60_white">#99FFFFFF</color>
+    <color name="alpha_65_white">#A6FFFFFF</color>
+    <color name="alpha_70_white">#B3FFFFFF</color>
+    <color name="alpha_75_white">#BFFFFFFF</color>
+    <color name="alpha_80_white">#CCFFFFFF</color>
+    <color name="alpha_85_white">#D9FFFFFF</color>
+    <color name="alpha_90_white">#E6FFFFFF</color>
+    <color name="alpha_95_white">#F2FFFFFF</color>
+
+    <color name="alpha_05_black">#0D000000</color>
+    <color name="alpha_10_black">#1A000000</color>
+    <color name="alpha_15_black">#26000000</color>
+    <color name="alpha_20_black">#33000000</color>
+    <color name="alpha_25_black">#40000000</color>
+    <color name="alpha_30_black">#4D000000</color>
+    <color name="alpha_35_black">#59000000</color>
+    <color name="alpha_40_black">#66000000</color>
+    <color name="alpha_45_black">#73000000</color>
+    <color name="alpha_50_black">#80000000</color>
+    <color name="alpha_55_black">#8C000000</color>
+    <color name="alpha_60_black">#99000000</color>
+    <color name="alpha_65_black">#A6000000</color>
+    <color name="alpha_70_black">#B3000000</color>
+    <color name="alpha_75_black">#BF000000</color>
+    <color name="alpha_80_black">#CC000000</color>
+    <color name="alpha_85_black">#D9000000</color>
+    <color name="alpha_90_black">#E6000000</color>
+    <color name="alpha_95_black">#F2000000</color>
+
+
+    <color name="common_top_bg">#404254</color>
+    <color name="grey">#C1BFC0</color>
+    <color name="grey_text">#7d7d7d</color>
+    <!-- 以白色为背景的控件中的黑色字体 -->
+    <color name="black_text">#40515B</color>
+    <color name="main_grey_text">#ababab</color>
+    <color name="orange_text">#ff7c27</color>
+    <color name="grey_background">#f6f5fa</color>
+    <color name="description_yellow">#d5a90a</color>
+    <color name="description_line_grid">#e5e5ea</color>
+    <color name="description_main">#424153</color>
+    <color name="description_blue">#0174a8</color>
+    <color name="description_red">#e40111</color>
+    <color name="description_bar_tooltip">#aa3302</color>
+    <!-- 蜜蜂黄色的字 -->
+    <color name="common_yellow">#e8b600</color>
+    <color name="common_text_yellow_tinge">#fcb537</color>
+    <!-- 橘黄色的字 -->
+    <color name="common_text_yellow">#fd5401</color>
+    <color name="common_shallow_gray">#bbbbb8</color>
+    <color name="common_dark_gray">#6f6e76</color>
+    <color name="common_text">#f9f6ec</color>
+    <color name="common_gray_line">#555464</color>
+    <color name="common_bottom_white">#f5f5f9</color>
+    <!-- 立即购买页的介绍，详情和记录未选择状态下的颜色 -->
+    <color name="purchase_grey_line">#dbdbdb</color>
+    <color name="common_grey_line">#dbdbdb</color>
+    <color name="common_grey_thin_text">#ababab</color>
+    <color name="common_grey_deep_text">#767676</color>
+    <color name="common_yellow_thin_text">#ff7700</color>
+    <color name="common_yellow_radiobutton_text">#FC890C</color>
+    <color name="common_yellow_deep_btn">#ff6600</color>
+    <color name="common_blue_thin_text">#4bbbe8</color>
+    <color name="common_red_thin_text">#f05b61</color>
+    <color name="launcher_yellow_button">#ff7300</color>
+    <!-- 无网络状态下上拉加载时的提示文字颜色 -->
+    <color name="onPullUpToRefresh_note_text">#4bbbe8</color>
+    <!--顶部title字体颜色-->
+    <color name="common_top_title_color_new">#444444</color>
+
+    <color name="common_btn_text_color_new">#ffffff</color>
+    <color name="common_dialog_view_color_new">#e9e9e9</color>
+    <!--确认按钮未点击颜色-->
+    <color name="common_btn_bg_normal_color_new">#ff9025</color>
+    <!--确认按钮点击颜色-->
+    <color name="common_btn_bg_unnormal_color_new">#f58925</color>
+
+    <color name="eye_color">#ff7700</color>
+
+    <!--home页item字体颜色-->
+    <color name="home_item_tv">#bebebe</color>
+</resources>
